@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas de menú</title>
+    <link rel="stylesheet" href="estilosEnlaces.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header id="header">
+        <nav>
+            <ul class="principal">
+                <li><a href="#seccion01"><i class="fa-solid fa-house"></i> inicio </a></li>
+                <li><a href="#seccion02"><i class="fa-solid fa-circle-user"></i> Trabajos </a>
+                    <ul class="secundario">
+                        <li><a href="#SQL">SQL server</a></li>
+                        <li><a href="#Py">Python</a></li>
+                        <li><a href="#Back">Back-End</a></li>
+                    </ul>
+                </li>
+                <li><a href="#seccion03"><i class="fa-solid fa-file"></i> Sobre Mi </a></li>
+                <li><a href="#seccion04"><i class="fa-solid fa-blog"></i> Contacto </a></li>
+            </ul>
+        </nav>
+        <div class="submenu">
+            <ul>
+                <a href="sobremi.html"><li>Más Sobre Mí</li></a>
+                <a href="trabajos.html"><li>Más Trabajos</li></a>
+                <a href="contacto.html"><li>Más Sobre Mi Contacto</li></a>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section id="seccion01" class="sobremi">
+            <a href="#header">Regresar al inicio</a>
+            <video src="imagenes/348116_small.mp4" autoplay loop class="video01"></video>
+        </section>
+        <section id="seccion02" class="trabajos">
+            <a href="#header">Regresar al inicio</a>
+            <div class="ordenador-trabajos">
+                <div class="TarjetaPrincipal">
+                    <h1>Proyecto principal</h1>
+                    <div class="contenido">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sequi dolor eum animi inventore culpa. Libero eveniet ab sequi quasi porro?</p>
+                    </div>
+                </div>
+                <div class="lista-tarjetas">
+                    <div class="tarjeta" id="SQL"><h2>SQL Server</h2>
+                        <div class="contenido">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti, aliquam.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" id="Py"><h2>Python</h2>
+                        <div class="contenido">
+                            <p>Lorem ipsum dolor sit amet adipisicing elit. Corrupti, aliquam.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta" id="Back"><h2>Back-end</h2>
+                        <div class="contenido">
+                            <p>Lorem ipsum dolor sit amet adipisicing elit. Corrupti, aliquam.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="seccion03" class="contacto">
+            <div class="titulo_contacto"><h1>¿Tienes un proyecto en mente? ¡Hablemos!</h1></div>
+            <div class="texto_contacto"><h3>Actualmente soy un programador freelance, disponible a colaboraciones o puestos a tiempo completo. Si te gusta mi trabajo o tienes alguna duda, escríbeme. Respondo más rápido por Whatsapp o Instagram.</h3></div>
+        </section>
+        <section class="blog">
+            <div class="TarjetaPrincipal" id="tarjeta1">
+                <h1>Mi camino aprendiendo Python De: 'Hola Mundo a mis primeros scripts</h1>
+                <div class="contenido">
+                    <h3>Gracias a videos tutoriales pude mejorar en el entendimiento de lenguajes de programacion de alto nivel como javascript o python o hasta diría que SQL, gracias a mi papá quien influyó en mí para decidir estudiar Desarrollo de software y a día de hoy, estudio lo que verdaderamente me apasiona.</h3>
+                </div>
+            </div>
+            <div class="TarjetaPrincipal" id="tarjeta2">
+                <h1>Como optimizar consutlas en SQL Server para principiantes.</h1>
+                <div class="contenido">
+                    <h3>Tres trucos sencillos que aprendi para que mis bases de datos carguen el doble de rapido sin morir en el intento.</h3>
+                </div>
+            </div>
+            <div class="TarjetaPrincipal" id="tarjeta3">
+                <h1>Por qué decidí meterme a diseño web a las 3AM (Review de mi proceso).</h1>
+                <div class="contenido">
+                    <h3>Una mirada sincera a la disciplina, las desveladas y la satisfaccion de ver mis lineas de codigo convertida en pagina real, hecha realidad, en constante práctica y aprendizaje.</h3>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="seccion04">
+        <h2>Desarrollado por: @Endless_at.3AM</h2>
+        <h3>curso de diseño y desarrollo web</h3>
+        <ul class="redes">
+        <li>
+            <a href="https://www.facebook.com/?locale=es_LA">
+                <i class="fa-brands fa-facebook"></i>
+                <p>Facebook</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.whatsapp.com/?lang=es">
+                <i class="fa-brands fa-whatsapp"></i>
+                <p>Whatsapp</p>
+            </a>
+        </li>
+        <li>
+            <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram"></i>
+                <p>Instagram</p>
+            </a>
+        </li>
+        </ul>
+    </footer>
+</body>
+</html>

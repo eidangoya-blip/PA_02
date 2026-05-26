@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: beige;
+    font-family: Exo2;
+    font-size: 12pt;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: #11141a;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 20px;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+    
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    font-family: orbitron;
+    font-size: 16pt;
+    transition: background-color 0.3s;
+}
+nav ul a li i{
+    margin-right: 8px;
+}
+nav ul a:hover{
+    transform: scale(1.05);
+    background-color: #718096;
+    font-weight: 800;
+    text-shadow: 0px 0px 20px #00fff2;
+}
+
+.submenu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 15px;
+}
+.submenu ul a{
+    text-decoration: none;
+    color: #a0aec0;
+    font-family: orbitron;
+    font-size: 11pt;
+    transition: all 0.3s;
+    margin-top: 10px;
+    margin-left: 43px;
+}
+.submenu ul a:hover{
+    background-color: transparent;
+    color: white;
+    text-shadow: 0px 0px 20px #00fff2;
+    font-weight: 900;
+}
+.imagen_fondo{
+    width: 100%;
+    height: 80vh;
+    background-color: #2d3748;
+    background-image: url(imagenes/contacto.avif);
+    background-position: center;
+    background-size: 100%;
+    scroll-margin-top: 140px;
+    overflow: hidden;
+}
+.principal{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    background-color: transparent;
+    padding: 5px;
+    justify-content: center;
+}
+.principal > li{
+    position: relative;
+}
+.principal a{
+    color: #e2e8f0;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-family: orbitron;
+    font-size: 13pt;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.principal a li i{
+    margin-right: 8px;
+}
+.principal a:hover{
+    transform: translateY(-2px);
+    color: #00fff2;
+    text-shadow: 0px 0px 10px rgba(0, 255, 242, 0.5);
+}
+.secundario{
+    list-style: none;
+    position: absolute;
+    left: 0;
+    background-color: #1a202c;
+    display: none;
+    min-width: 180px;
+    border-radius: 8px;
+    border: 1px solid #2d3748;
+    overflow: hidden;
+}
+.secundario a{
+    padding: 12px 15px;
+    color: #e2e8f0;
+    font-size: 11pt;
+}
+.secundario a:hover{
+    background-color: #2d3748;
+    color: #00fff2;
+}
+.principal li:hover .secundario{
+    display: block;
+}
+.video01{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+.sobre mi a, .trabajos a, contacto a, blog a{
+    display: none;
+}
+.Hero_section{
+    width: auto;
+    height: auto;
+    background: linear-gradient(135deg, #0f2b46 0%, #1a365d 100%);
+    padding: 90px 40px;
+}
+.Hero_section div{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Hero_section h1{
+    color: #00fff2;
+    text-shadow: 0px 0px 7px #00fff2;
+    font-family: orbitron;
+    font-size: 52px;
+    width: 661px;
+    text-decoration: none;
+    margin-top: 52px;
+}
+.Hero_section p{
+    width: 610px;
+    color: #cbd5e1;
+    font-family: 'Exo 2';
+    font-size: 31px;
+}
+.contacto{
+    width: 100%;
+    height: 600px;
+    background-color: #00fff2;
+}
+.blog{
+    width: 100%;
+    height: 600px;
+    background-color: #31046d;
+}
+footer{
+    background-color: #090d16;
+    width: auto;
+    color: #e2e8f0;
+    padding: 40px 20px;
+}
+footer h2{
+    font-size: 16pt;
+    font-family: orbitron;
+    text-align: center;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+footer h3{
+    font-size: 12pt;
+    font-family: orbitron;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #718096;
+    transition: all 0.3s ease;
+}
+footer h2:hover{
+    transform: scale(1.05);
+    text-shadow: 0px 0px 20px #00fff2;
+}
+
+footer h3:hover{
+    transform: scale(1.05);
+    text-shadow: 0px 0px 20px #00fff2;
+}
+.redes{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.redes a{
+    text-decoration: none;
+    color: #a0aec0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s;
+}
+.redes a i{
+    font-size: 20pt;
+}
+.redes a p{
+    font-size: 9pt;
+    font-family: orbitron;
+}
+.redes a:hover{
+    transform: scale(1.05);
+    color: #00fff2;
+    text-shadow: 0px 1px 10px #00fff2;
+}
+.TarjetaPrincipal{
+    font-family: 'Exo 2';
+    background-color: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+    min-height: 320px;
+    padding: 35px;
+    gap: 32px;
+    margin-top: 43px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+.TarjetaPrincipal h1{
+    font-family: orbitron;
+    font-size: 22pt;
+    color: #00fff2;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 15px rgba(0, 255, 242, 0.7);
+}
+.TarjetaPrincipal .contenido p{
+    font-size: 12pt;
+    line-height: 1.6;
+    color: #e2e8f0;
+}
+.lista-tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+}
+.tarjeta{
+    font-family: 'Exo 2';
+    color: white;
+    background-color: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    width: 380px;
+    height: auto;
+    padding: 20px 25px;
+    transition: all 0.4s ease;
+    text-align: left;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+}
+.tarjeta h2{
+    font-family: orbitron;
+    font-size: 14pt;
+    color: #cbd5e1;
+    margin-bottom: 8px;
+    transition: color 0.3s;
+}
+.tarjeta .contenido p{
+    color: #94a3b8;
+    line-height: 1.5;
+}
+.stack_aprendizaje{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    background-color: #1a202c;
+    padding: 61px;
+}
+.stack_aprendizaje .titulo_programacion{
+    margin-top: 62px;
+    text-align: center;
+}
+.stack_aprendizaje h2{
+    color: #00fff2;
+    font-size: 40px;
+    font-family: 'orbitron';
+    font-weight: 600;
+}
+.TarjetaPrincipal .contenido p{
+    font-size: 12pt;
+    line-height: 1.6;
+    color: #e2e8f0;
+}
+.Canales_comunicacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: auto;
+    height: auto;
+    background-color: #1a202c;
+    padding: 61px;
+}
+.Canales_comunicacion h2{
+    font-family: orbitron;
+    font-size: 22pt;
+    color: #00fff2;
+    margin-bottom: 20px;
+    text-shadow: 0px 4px 15px rgba(0, 255, 242, 0.7);
+}
+
+
+
+
+
+
+
