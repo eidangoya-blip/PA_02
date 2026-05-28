@@ -317,22 +317,7 @@ footer h3:hover{
     line-height: 1.6;
     color: #e2e8f0;
 }
-.Canales_comunicacion{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: auto;
-    height: auto;
-    background-color: #1a202c;
-    padding: 61px;
-}
-.Canales_comunicacion h2{
-    font-family: orbitron;
-    font-size: 22pt;
-    color: #00fff2;
-    margin-bottom: 20px;
-    text-shadow: 0px 4px 15px rgba(0, 255, 242, 0.7);
-}
+
 
 
 
