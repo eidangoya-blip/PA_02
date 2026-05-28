@@ -305,6 +305,7 @@ footer h3:hover{
 .stack_aprendizaje .titulo_programacion{
     margin-top: 62px;
     text-align: center;
+    align-items: center;
 }
 .stack_aprendizaje h2{
     color: #00fff2;
